@@ -34,7 +34,7 @@ In this project, we:
 
 - Personalized workout plan based on user's age, BMI, and gender.
 - Categories include workout type, duration, and frequency.
-- Pulled from exercise.db.
+- Stored in exercise.db.
 
 **Chatbot Support**
 
