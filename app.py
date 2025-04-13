@@ -18,7 +18,8 @@ from reportlab.lib.utils import ImageReader
 
 # Initialize Flask app
 app = Flask(__name__)
-app.secret_key = "32f03892e75254eee54a9921d7de32cea3e29f7eb6688a279b2703c71f84b313"
+import os
+app.secret_key = os.environ.get("32f03892e75254eee54a9921d7de32cea3e29f7eb6688a279b2703c71f84b313", 'default-key-for-dev')
 
 # Function to load or create XGBoost model
 def load_or_create_model():
