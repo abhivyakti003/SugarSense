@@ -90,32 +90,32 @@ In this project, we:
 
 **users.db**
 
-- Stores: id, username, email, password, timezone, created_at
+  - Stores: id, username, email, password, timezone, created_at
 
 **predict.db**
 
-- Stores prediction input features and result:
+  - Stores prediction input features and result:
   - user_id, age, bmi, highbp, cholcheck, smoker, etc.
   - prediction result
 
 **meal.db**
 
-- Meal plan per user per day:
+  - Meal plan per user per day:
   - user_id, day, breakfast, lunch, dinner, timestamp
 
 **exercise.db**
 
-- Personalized fitness plans:
+  - Personalized fitness plans:
   - user_id, workout_type, frequency, duration, exercises, timestamp
 
 **feedback.db**
 
-- User-submitted feedback:
+  - User-submitted feedback:
   - user_id, feedback
 
 **site.db**
 
-- Contact messages from users:
+  - Contact messages from users:
   - user_id, name, email, message, timestamp
 
 ## **Project Structure**
@@ -159,34 +159,35 @@ pip install -r requirements.txt
 
 1. **Clone the repository**
 
-git clone <https://github.com/your-username/SugarSense.git>
+      git clone <https://github.com/your-username/SugarSense.git>
 
 1. **Navigate to the project directory**
 
-cd SugarSense
+      cd SugarSense
 
 1. **Run the Flask app**
 
-python app.py
+      python app.py
 
 ## **Contributing**
 
 We welcome contributions! Please follow the steps below:
 
 1. Fork the repository.
+   
 2. Create a new branch:
 
-git checkout -b feature-branch
+      git checkout -b feature-branch
 
-1. Commit your changes:
+3. Commit your changes:
 
-git commit -m "Add new feature"
+      git commit -m "Add new feature"
 
-1. Push to your branch:
+4. Push to your branch:
 
-git push origin feature-branch
+      git push origin feature-branch
 
-1. Submit a pull request.
+5. Submit a pull request.
 
 ## **License**
 
